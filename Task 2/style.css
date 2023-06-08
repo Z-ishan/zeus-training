@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(255, 251, 188);
+}
+
+h1{
+    letter-spacing: 10px;
+    font-style: italic;
+    background-color: brown;
+    color: rgb(255, 251, 188);
+    border-bottom: 10px solid rgb(227, 66, 12);
+}
+
+h2{
+    background-color: green;
+    color: white;
+    padding-left: 20px;
+}
+
+table{
+    background-color: rgb(191, 187, 187);
+}
+
+img{
+    border: dashed;
+    border-color: black;
+    background-color: white;
+    padding: 20px 80px 20px 20px;
+}
+
+ul{
+    color: rgb(200, 28, 28);
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    color: rgb(129, 129, 129);
+}
+button{
+    background-color: rgb(201, 201, 201);
+    border: 1px solid black;
+}
+textarea{
+    resize: none;
+    overflow-y: scroll;
+}
+
+span{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-style: italic;
+}

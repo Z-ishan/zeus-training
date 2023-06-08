@@ -1,0 +1,42 @@
+
+JAVASCRIPT 
+A. List down ways in which JavaScript command can be added to a webpage, what is the preferred way.
+Ans: There are several ways to add JavaScript code to a webpage. Here are some common methods:
+
+1. Inline JavaScript: You can add JavaScript code directly within an HTML document by using the `<script>` tag. For example:
+
+```html
+<script>
+  // JavaScript code goes here
+</script>
+```
+
+2. Internal JavaScript: You can also include JavaScript code within the `<script>` tag in the `<head>` or `<body>` section of your HTML document. For example:
+
+```html
+<head>
+  <script src="script.js"></script>
+</head>
+```
+
+3. External JavaScript file: You can place your JavaScript code in an external file with a `.js` extension and include it in your HTML document using the `<script>` tag. For example:
+
+```html
+<script src="script.js"></script>
+```
+
+4. Event handlers: You can attach JavaScript code to specific HTML elements using event handlers such as `onclick`, `onload`, or `onsubmit`. For example:
+
+```html
+<button onclick="myFunction()">Click me</button>
+```
+
+5. External libraries and frameworks: You can include external JavaScript libraries or frameworks by referencing their source URLs. For example:
+
+```html
+<script src="https://example.com/library.js"></script>
+```
+
+Preferred way:
+The preferred way of adding JavaScript to a webpage depends on the specific use case and best practices. However, for larger projects, it's generally recommended to separate JavaScript code into external files and include them using the `<script>` tag. This promotes code organization, reusability, and maintainability. Additionally, using external files allows for better caching and improves the performance of the website as the browser can cache the JavaScript file separately.
+
